@@ -1,0 +1,13 @@
+---
+title: "Welcome To My Blog"
+author: "Joey Couse"
+date: "2022-08-01"
+image: first_post.jpg
+categories: 
+  - news
+---
+
+![](first_post.jpg)
+
+
+Hello and welcome to my blog! I'll be sharing techniques, fun data science news, and some of my general thoughts on data science in the Air Force. 
