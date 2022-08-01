@@ -2,7 +2,7 @@
 title: "Welcome To My Blog"
 author: "Joey Couse"
 date: "2022-08-01"
-description: "My First blog post"
+description: "My first blog post"
 image: first_post.jpg
 categories: 
   - news
