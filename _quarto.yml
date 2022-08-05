@@ -2,13 +2,15 @@ project:
   type: website
 
 website:
-  title: "Blog"
+  title: "High Leverage Data Points"
   description: "Random things I've found interesting"
   navbar:
     right:
       - about.qmd
       - icon: github
         href: https://github.com/joeycouse
+      - icon: linkedin
+        href: https://www.linkedin.com/in/joshua-couse
 
 format:
   html:
