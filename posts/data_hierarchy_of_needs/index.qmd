@@ -3,6 +3,7 @@ title: "Opinion: The Data Hierarchy of Needs in the AF"
 author: "Joey Couse"
 date: "2022-08-05"
 description: "Why we should start counting things before we try to predict them"
+freeze: true
 image: data_needs.png
 categories: 
   - opinion
