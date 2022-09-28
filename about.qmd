@@ -13,6 +13,6 @@ about:
 
 ---
 
-Hello I'm currently serving as an Operations Research Analyst in the US Air Force. I'm passionate about about data science, programming, guitar, and trucks. I am a contributor to a variety of `tidymodels` packages, and author of my personal R package [cousepkg](https://github.com/joeycouse/cousepkg).  
+Hello I'm currently serving as an Operations Research Analyst in the US Air Force. I'm passionate about about data science, guitar, and old cars. I am a contributor to a variety of `tidymodels` packages, and author of my personal R package [cousepkg](https://github.com/joeycouse/cousepkg).  
 
 I'm a '19 Distinguish Graduate of the US Air Force Academy and '20 Graduate of MIT.
