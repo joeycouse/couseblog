@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/unsolicited_opinion/index.html",
       "/posts/data_hierarchy_of_needs/index.html",
       "/posts/welcome/index.html"
     ]

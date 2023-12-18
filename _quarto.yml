@@ -4,7 +4,7 @@ project:
 
 website:
   title: "High Leverage Data Points"
-  description: "Random things I've found interesting"
+  description: "My public journey through life and data science"
   page-footer: 
     center: The views expressed in this blog are those of the author and do not necessarily reflect the official policy or position of the Air Force, the Department of Defense, or the U.S. Government.
   navbar:
@@ -18,8 +18,7 @@ website:
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: theme.scss
 
 
 
