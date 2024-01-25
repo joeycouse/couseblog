@@ -1,0 +1,38 @@
+---
+title: "My Experience as an AF Data Scientist <br> Part Two: Becoming a Middle Level Manager"
+author: "Joey Couse"
+date: "2024-1-25"
+description: "A JMO's unsolicited opinion and experience as a young technical officer in the enormous labyrinth of the military-industrial complex"
+categories: 
+  - opinion
+format: 
+  html:
+    link-external-newwindow: true
+---
+
+![](middle_manager.png){fig-align="center" width=300}
+
+Officers are leaders, and being a good officer means being a good leader. This is the standard gospel for young military officers. However, this mindset is fundamentally incompatible with highly specialized and technical career fields. I believe much of this mentality is ingrained in our history. Our greatest military leaders led  in combat not on the keyboard. Apple TV doesn’t release a new series about Air Force Operations Research Analysts. 
+
+This mentality fundamentally encourages young officers to be leaders of people, teams, and projects. Not become true technical experts. Lieutenants quickly become project managers, as ‘Leadership’ experience. It’s absurd that we have Lieutenants in highly technical career fields immediately becoming program managers, instead of learning and mastering their field. Being a middle level manager is an exhuasting balancing act, with a very limit scope of power and influence. You are constantly stuck between a rock and hard place, wanting to provide meaningful work to your suboridnates but being hamstrung by factors outside of your control. The Harvard Burliness Review has a great [article](https://hbr.org/2017/03/why-being-a-middle-manager-is-so-exhausting) on the struggle of being in this position.
+Unfortunately in a DoD bloated with civilians and contractors, the uniformed officers tend to be managers by default. I honestly couldn’t put my finger on why this is the case. My best guess is along two lines:
+
+1. It helps JMO’s Career
+
+For OPRs/OPBs being a leader of a 7 person team and managing 12 projects sounds a lot better than a someone who wrote Pyspark to combine, normalize, and merge 5 tables.
+
+Our leaders don’t understand what good technical work is. It’s impossible for the Colonels and Generals of the Air Force to determine the difference betweena Capt who made a linear regression model in Excel and Lieutenant who pre-trained a C++ implementation Llama2 from scratch. Both OPR bullets will read:
+
+“Adv’d AI/ML Adoption; developed custom AI solution; Saved $999 Billion dollars and 482 Million Man Hours; Tech Expert; promote now.”
+
+2. We don’t trust anyone else
+
+With the bloated sea of civilians and contractors, there aren’t much better options. We always need gov’t reps to hold the teleworkers, Booz Allens, and Lockheeds accountable and ensure they do what we pay them for. Often this involves meetings, upon meetings, upon meetings. Though, civilians do manage and lead projects, active duty seems to be preferred due to the whole UCMJ thing, especially in high profile projects. Inevitably, this means there is a lieutenant somewhere managing their team of Booz Allen Contractors to gain leadership experience. 
+
+The Air Force is deeply confused. They love the fact that people will get PhDs and even try to incorporate it in promotions (recently), but have no idea how to utilize them. We love our officers to be highly educated technical experts but also want them to be commanders and leaders. There isn’t an IC (individual contributor) track, this is unlike industry where you can rise high within the company as an applied scientist/researcher. In my opinion, nearly all highly technical work is outsourced to the massive list of defense contractors. We as the gov’t reps are left to manage them, and get back products that we don’t understand and aren’t compatible with our existing systems. 
+
+We need to decide what our identity is. Are we really highly technical experts in machine learning, statistics, and computer science? Or are we people leaders and commanders? We can’t have both at once. We either support our own internal technical talent instead of sourcing more and more contractors or give in and rename the career field ‘Technical Program Manger’. 
+
+An idea, to fix some of these issues is to have two tracks: Manager and Tech Lead. New accession would take the first 4 years or so to learn the career field and the Air Force, and at some point should decide if they want to go to the manager track with education focusing on MBA type programs or go into the technical track with focus on Masters and PhD's in technical areas. Ideally, the career opportunities would align with this distinction and we wouldn't have to have a one-size-fits-all approach to a officer's career in a technical field. Not everyone wants to be a commander or director, sometimes people just want to learn and write high quality code and that opportunity should exist. 
+
+

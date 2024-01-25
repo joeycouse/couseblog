@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Joey Couse">
-<meta name="dcterms.date" content="2022-08-05">
-<meta name="description" content="Why we should start counting things before we try to predict them">
+<meta name="dcterms.date" content="2024-01-25">
+<meta name="description" content="A JMO’s unsolicited opinion and experience as a young technical officer in the enormous labyrinth of the military-industrial complex">
 
-<title>High Leverage Data Points - Opinion: The Data Hierarchy of Needs in the AF</title>
+<title>High Leverage Data Points - My Experience as an AF Data Scientist  Part Two: Becoming a Middle Level Manager</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -115,10 +115,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Opinion: The Data Hierarchy of Needs in the AF</h1>
+      <h1 class="title">My Experience as an AF Data Scientist <br> Part Two: Becoming a Middle Level Manager</h1>
                   <div>
         <div class="description">
-          Why we should start counting things before we try to predict them
+          A JMO’s unsolicited opinion and experience as a young technical officer in the enormous labyrinth of the military-industrial complex
         </div>
       </div>
                           <div class="quarto-categories">
@@ -140,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">August 5, 2022</p>
+        <p class="date">January 25, 2024</p>
       </div>
     </div>
     
@@ -159,19 +159,26 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p><img src="data_needs.png" class="img-fluid"></p>
-<p>A wise analyst once said “data science is 99% counting things, and sometimes dividing”.</p>
-<p>Whenever I hear about AI or deep learning in the AF, I can’t help but roll my eyes. Those are at the top of the pyramid! Developing, deploying, and maintaining advanced models must build on a extremely strong and robust lower level data cleaning, aggregation, and pipe-lining. Although, flashy and enticing we aren’t ready for AI in the AF.</p>
-<p>IMO large investments must be made in the boring stuff. Database management and integration - cloud storage and process consolidation. Navigating 10+ disconnected and individually contracted database systems is not realistically manageable. Not doing the boring stuff right has a negative effect on our ability to observe, orient, and decide. Furthermore, it doesn’t seem that any of these contractors have any incentive to collaborate. Consolidation means loss of business.</p>
-<p>Before, we jump the gun to AI. We need to <code>glimpse()</code> and <code>summarise()</code> what we already have. We need to deepen our knowledge of our current processes - we can’t optimize what we don’t understand. Which brings me back to my first point - counting. The easiest and often greatest insights into a process are usually the result of a simple count.</p>
-<ul>
-<li>How many people are doing xyz?</li>
-<li>How many times is xyz done per month?</li>
-<li>How often does xyz happen?</li>
-<li>etc.</li>
-</ul>
-<p>Graduating from USAFA and serving in the Air Force are among my greatest life accomplishments, and I desperately want to contribute to this country which has truly blessed me and my family with opportunity. But I’ll admit, I question if this is best way and every time I read a headline to the tune of “How the Air Force is using AI to …” I feel that much more disconnected from the larger organization.</p>
-<p>The gov’t and military have the most motivating challenges for any data scientist. Your work directly contributes to the safety and security of our nation, not to the pockets of shareholders. I believe younger generations feel more obligated to serve in roles that benefit society, and the public sector has the strongest pitch. But we need to be empowered - data is the present and future – can we get a handle on ours?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="middle_manager.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="300"></p>
+</figure>
+</div>
+<p>Officers are leaders, and being a good officer means being a good leader. This is the standard gospel for young military officers. However, this mindset is fundamentally incompatible with highly specialized and technical career fields. I believe much of this mentality is ingrained in our history. Our greatest military leaders led in combat not on the keyboard. Apple TV doesn’t release a new series about Air Force Operations Research Analysts.</p>
+<p>This mentality fundamentally encourages young officers to be leaders of people, teams, and projects. Not become true technical experts. Lieutenants quickly become project managers, as ‘Leadership’ experience. It’s absurd that we have Lieutenants in highly technical career fields immediately becoming program managers, instead of learning and mastering their field. Being a middle level manager is an exhuasting balancing act, with a very limit scope of power and influence. You are constantly stuck between a rock and hard place, wanting to provide meaningful work to your suboridnates but being hamstrung by factors outside of your control. The Harvard Burliness Review has a great <a href="https://hbr.org/2017/03/why-being-a-middle-manager-is-so-exhausting">article</a> on the struggle of being in this position. Unfortunately in a DoD bloated with civilians and contractors, the uniformed officers tend to be managers by default. I honestly couldn’t put my finger on why this is the case. My best guess is along two lines:</p>
+<ol type="1">
+<li>It helps JMO’s Career</li>
+</ol>
+<p>For OPRs/OPBs being a leader of a 7 person team and managing 12 projects sounds a lot better than a someone who wrote Pyspark to combine, normalize, and merge 5 tables.</p>
+<p>Our leaders don’t understand what good technical work is. It’s impossible for the Colonels and Generals of the Air Force to determine the difference betweena Capt who made a linear regression model in Excel and Lieutenant who pre-trained a C++ implementation Llama2 from scratch. Both OPR bullets will read:</p>
+<p>“Adv’d AI/ML Adoption; developed custom AI solution; Saved $999 Billion dollars and 482 Million Man Hours; Tech Expert; promote now.”</p>
+<ol start="2" type="1">
+<li>We don’t trust anyone else</li>
+</ol>
+<p>With the bloated sea of civilians and contractors, there aren’t much better options. We always need gov’t reps to hold the teleworkers, Booz Allens, and Lockheeds accountable and ensure they do what we pay them for. Often this involves meetings, upon meetings, upon meetings. Though, civilians do manage and lead projects, active duty seems to be preferred due to the whole UCMJ thing, especially in high profile projects. Inevitably, this means there is a lieutenant somewhere managing their team of Booz Allen Contractors to gain leadership experience.</p>
+<p>The Air Force is deeply confused. They love the fact that people will get PhDs and even try to incorporate it in promotions (recently), but have no idea how to utilize them. We love our officers to be highly educated technical experts but also want them to be commanders and leaders. There isn’t an IC (individual contributor) track, this is unlike industry where you can rise high within the company as an applied scientist/researcher. In my opinion, nearly all highly technical work is outsourced to the massive list of defense contractors. We as the gov’t reps are left to manage them, and get back products that we don’t understand and aren’t compatible with our existing systems.</p>
+<p>We need to decide what our identity is. Are we really highly technical experts in machine learning, statistics, and computer science? Or are we people leaders and commanders? We can’t have both at once. We either support our own internal technical talent instead of sourcing more and more contractors or give in and rename the career field ‘Technical Program Manger’.</p>
+<p>An idea, to fix some of these issues is to have two tracks: Manager and Tech Lead. New accession would take the first 4 years or so to learn the career field and the Air Force, and at some point should decide if they want to go to the manager track with education focusing on MBA type programs or go into the technical track with focus on Masters and PhD’s in technical areas. Ideally, the career opportunities would align with this distinction and we wouldn’t have to have a one-size-fits-all approach to a officer’s career in a technical field. Not everyone wants to be a commander or director, sometimes people just want to learn and write high quality code and that opportunity should exist.</p>
 
 
 
@@ -255,6 +262,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,

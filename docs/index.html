@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.392">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -47,7 +47,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
@@ -62,6 +62,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -100,13 +101,40 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
@@ -162,7 +190,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(1)</span></div><div class="category" data-category="opinion">opinion <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(1)</span></div><div class="category" data-category="opinion">opinion <span class="quarto-category-count">(3)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -176,34 +204,63 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="opinion" data-listing-date-sort="1701928800000" data-listing-file-modified-sort="1702937634985" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="780">
+<div class="quarto-post image-right" data-index="0" data-categories="opinion" data-listing-date-sort="1706162400000" data-listing-file-modified-sort="1706207990693" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="712">
 <div class="thumbnail">
-<p><a href="./posts/unsolicited_opinion/index.html"></a></p><a href="./posts/unsolicited_opinion/index.html">
-<p><img src="./posts/unsolicited_opinion/cool_joey.jpeg" class="thumbnail-image"></p>
-</a><p><a href="./posts/unsolicited_opinion/index.html"></a></p>
+<p><a href="./posts/becoming_a_middle_level_manager/index.html" class="no-external"></a></p><a href="./posts/becoming_a_middle_level_manager/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/becoming_a_middle_level_manager/middle_manager.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/becoming_a_middle_level_manager/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<p><a href="./posts/unsolicited_opinion/index.html"></a></p><a href="./posts/unsolicited_opinion/index.html">
 <h3 class="no-anchor listing-title">
-My Experience as an AF Data Scientist <br> Part One: Software, Infrastructure, and Data
+<a href="./posts/becoming_a_middle_level_manager/index.html" class="no-external">My Experience as an AF Data Scientist <br> Part Two: Becoming a Middle Level Manager</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/becoming_a_middle_level_manager/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('opinion'); return false;">
 opinion
 </div>
 </div>
-<p><a href="./posts/unsolicited_opinion/index.html"></a></p><a href="./posts/unsolicited_opinion/index.html">
 <div class="listing-description">
-<p>A JMO’s unsolicited opinion and experience as a young technical officer in the enormous labyrinth of the military-industrial complex</p>
+<a href="./posts/becoming_a_middle_level_manager/index.html" class="no-external">A JMO’s unsolicited opinion and experience as a young technical officer in the enormous labyrinth of the military-industrial complex</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/becoming_a_middle_level_manager/index.html" class="no-external">
+<div class="listing-date">
+Jan 25, 2024
+</div>
+<div class="listing-author">
+Joey Couse
 </div>
 </a>
 </div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="opinion" data-listing-date-sort="1701928800000" data-listing-file-modified-sort="1702937634985" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="780">
+<div class="thumbnail">
+<p><a href="./posts/unsolicited_opinion/index.html" class="no-external"></a></p><a href="./posts/unsolicited_opinion/index.html" class="no-external">
+<p><img src="./posts/unsolicited_opinion/cool_joey.jpeg" class="thumbnail-image"></p>
+</a><p><a href="./posts/unsolicited_opinion/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/unsolicited_opinion/index.html" class="no-external">My Experience as an AF Data Scientist <br> Part One: Software, Infrastructure, and Data</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/unsolicited_opinion/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('opinion'); return false;">
+opinion
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/unsolicited_opinion/index.html" class="no-external">A JMO’s unsolicited opinion and experience as a young technical officer in the enormous labyrinth of the military-industrial complex</a>
+</div>
+</div>
 <div class="metadata">
-<a href="./posts/unsolicited_opinion/index.html">
+<a href="./posts/unsolicited_opinion/index.html" class="no-external">
 <div class="listing-date">
 Dec 7, 2023
 </div>
@@ -213,34 +270,30 @@ Joey Couse
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="opinion" data-listing-date-sort="1659675600000" data-listing-file-modified-sort="1664376620000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="374">
+<div class="quarto-post image-right" data-index="2" data-categories="opinion" data-listing-date-sort="1659675600000" data-listing-file-modified-sort="1664376620000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="374">
 <div class="thumbnail">
-<p><a href="./posts/data_hierarchy_of_needs/index.html"></a></p><a href="./posts/data_hierarchy_of_needs/index.html">
+<p><a href="./posts/data_hierarchy_of_needs/index.html" class="no-external"></a></p><a href="./posts/data_hierarchy_of_needs/index.html" class="no-external">
 <p><img src="./posts/data_hierarchy_of_needs/data_needs.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/data_hierarchy_of_needs/index.html"></a></p>
+</a><p><a href="./posts/data_hierarchy_of_needs/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<p><a href="./posts/data_hierarchy_of_needs/index.html"></a></p><a href="./posts/data_hierarchy_of_needs/index.html">
 <h3 class="no-anchor listing-title">
-Opinion: The Data Hierarchy of Needs in the AF
+<a href="./posts/data_hierarchy_of_needs/index.html" class="no-external">Opinion: The Data Hierarchy of Needs in the AF</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/data_hierarchy_of_needs/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('opinion'); return false;">
 opinion
 </div>
 </div>
-<p><a href="./posts/data_hierarchy_of_needs/index.html"></a></p><a href="./posts/data_hierarchy_of_needs/index.html">
 <div class="listing-description">
-<p>Why we should start counting things before we try to predict them</p>
+<a href="./posts/data_hierarchy_of_needs/index.html" class="no-external">Why we should start counting things before we try to predict them</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/data_hierarchy_of_needs/index.html">
+<a href="./posts/data_hierarchy_of_needs/index.html" class="no-external">
 <div class="listing-date">
 Aug 5, 2022
 </div>
@@ -250,34 +303,30 @@ Joey Couse
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="news" data-listing-date-sort="1659330000000" data-listing-file-modified-sort="1659707498000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
+<div class="quarto-post image-right" data-index="3" data-categories="news" data-listing-date-sort="1659330000000" data-listing-file-modified-sort="1659707498000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
 <div class="thumbnail">
-<p><a href="./posts/welcome/index.html"></a></p><a href="./posts/welcome/index.html">
+<p><a href="./posts/welcome/index.html" class="no-external"></a></p><a href="./posts/welcome/index.html" class="no-external">
 <p><img src="./posts/welcome/first_post.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/welcome/index.html"></a></p>
+</a><p><a href="./posts/welcome/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<p><a href="./posts/welcome/index.html"></a></p><a href="./posts/welcome/index.html">
 <h3 class="no-anchor listing-title">
-Welcome To My Blog
+<a href="./posts/welcome/index.html" class="no-external">Welcome To My Blog</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/welcome/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
 </div>
 </div>
-<p><a href="./posts/welcome/index.html"></a></p><a href="./posts/welcome/index.html">
 <div class="listing-description">
-<p>My first blog post</p>
+<a href="./posts/welcome/index.html" class="no-external">My first blog post</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/welcome/index.html">
+<a href="./posts/welcome/index.html" class="no-external">
 <div class="listing-date">
 Aug 1, 2022
 </div>
@@ -420,38 +469,28 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    const typesetMath = (el) => {
-      if (window.MathJax) {
-        // MathJax Typeset
-        window.MathJax.typeset([el]);
-      } else if (window.katex) {
-        // KaTeX Render
-        var mathElements = el.getElementsByClassName("math");
-        var macros = [];
-        for (var i = 0; i < mathElements.length; i++) {
-          var texText = mathElements[i].firstChild;
-          if (mathElements[i].tagName == "SPAN") {
-            window.katex.render(texText.data, mathElements[i], {
-              displayMode: mathElements[i].classList.contains('display'),
-              throwOnError: false,
-              macros: macros,
-              fleqn: false
-            });
-          }
-        }
-      }
-    }
     if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
-        for (let i = 0; i < 2; i++) {
-          container.appendChild(note.children[i].cloneNode(true));
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
         }
-        typesetMath(container);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
         return container.innerHTML
       } else {
-        typesetMath(note);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
         return note.innerHTML;
       }
     } else {
@@ -460,8 +499,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      typesetMath(note);
-      return note.innerHTML;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
     }
   }
   for (var i=0; i<xrefs.length; i++) {
