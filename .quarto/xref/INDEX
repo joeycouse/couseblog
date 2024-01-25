@@ -1,0 +1,23 @@
+{
+  "posts/bayes/bayes.qmd": {
+    "bayes.html": "5e1695e2"
+  },
+  "index.qmd": {
+    "index.html": "b37156e4"
+  },
+  "posts/data_hierarchy_of_needs/index.qmd": {
+    "index.html": "3ab0f382"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "ae6fb7d6"
+  },
+  "about.qmd": {
+    "about.html": "ef62a9ed"
+  },
+  "posts/unsolicited_opinion/index.qmd": {
+    "index.html": "3a753b0e"
+  },
+  "posts/becoming_a_middle_level_manager/index.qmd": {
+    "index.html": "e07efc95"
+  }
+}
